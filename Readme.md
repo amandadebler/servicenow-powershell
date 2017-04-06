@@ -1,4 +1,4 @@
-# PSServiceNow  
+# PSServiceNow-Proxy  
 [![GitHub release](https://img.shields.io/github/release/Sam-Martin/servicenow-powershell.svg)](https://github.com/Sam-Martin/servicenow-powershell/releases/latest) [![GitHub license](https://img.shields.io/github/license/Sam-Martin/servicenow-powershell.svg)](LICENSE) ![Test Coverage](https://img.shields.io/badge/coverage-70%25-yellowgreen.svg)  
 This PowerShell module provides a series of cmdlets for interacting with the [ServiceNow REST API](http://wiki.servicenow.com/index.php?title=REST_API), performed by wrapping `Invoke-RestMethod` for the API calls.  
 **IMPORTANT:** Neither this module, nor its creator are in any way affiliated with ServiceNow.
@@ -48,8 +48,9 @@ The `Connection` parameter accepts a hashtable object that requires a username, 
 This module comes with [Pester](https://github.com/pester/Pester/) tests for unit testing.
 
 ## Scope & Contributing
-This module has been created as an abstraction layer to suit my immediate requirements. Contributions are gratefully received however, so please feel free to submit a pull request with additional features or amendments.
+This fork will add the ability to configure web proxy settings. Ultimately, it will be able to derive web proxy settings from Windows/IE.
 
 ## Author
 Author:: Sam Martin (<samjackmartin@gmail.com>)
+Author:: Amanda Debler (<PSServiceNow@mandie.net>)
 
